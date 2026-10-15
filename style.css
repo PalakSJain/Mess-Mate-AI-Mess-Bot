@@ -1,0 +1,43 @@
+  MessMate – AI Mess Information Bot
+   Subject: Generative AI, LLM, and Agentic AI (CIE-3)
+   Color Palette: Pastel Lavender, Peach, Mint Green, Cream
+   Author: College Engineering Student Team
+   ========================================================================== */
+/* ----------------- CSS Custom Properties (Theme Variables) ----------------- */
+:root {
+  /* Pastel Primary (Lavender) */
+  --lavender-50:  #F7F5FC;
+  --lavender-100: #EFEAF8;
+  --lavender-200: #DDD3F1;
+  --lavender-300: #BEADE3;
+  --lavender-400: #9E85D3;
+  --lavender-500: #7E63BE; /* Core Brand Primary */
+  --lavender-600: #684FA3;
+  --lavender-700: #523D84;
+  /* Pastel Accent 1 (Peach) */
+  --peach-50:  #FFF8F3;
+  --peach-100: #FFEFE3;
+  --peach-200: #FFDFC7;
+  --peach-300: #FFBE91;
+  --peach-400: #F89B5F;
+  --peach-500: #E77A38; /* Warm Accent */
+  --peach-600: #C75B1C;
+  /* Pastel Accent 2 (Mint Green) */
+  --mint-50:  #F0FBF5;
+  --mint-100: #DCF6E7;
+  --mint-200: #BCEECE;
+  --mint-300: #8CE0AA;
+  --mint-500: #2E9E66; /* Fresh Status Green */
+  --mint-600: #237E52;
+  /* Cream & Neutral Tones */
+  --cream-50:  #FFFEFB;
+  --cream-100: #FAF8F2;
+  --cream-200: #F3EFE6;
+  --surface:   #FFFFFF;
+  --text-main: #232938;
+  --text-body: #4E576E;
+  --text-muted:#7A849C;
+  --border-light: #E7EAF1;
+  --border-hover: #D0D5E3;
+  /* Elevation Shadows */
+  --shadow-xs: 0 2px 6px rgba(126, 99, 190, 0.05);

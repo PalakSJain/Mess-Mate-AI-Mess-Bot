@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MessMate – AI Mess Information Bot for College Hostel Students. CIE-3 AI Agent Design Challenge Project.">
+  <meta name="theme-color" content="#7E69AB">
+  <title>MessMate – Your Smart Mess Assistant | CIE-3 AI Agent</title>
+  
+  <!-- Google Fonts for Modern Clean Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ================= TOP NOTIFICATION / SYSTEM ANNOUNCEMENT ================= -->
+  <div class="top-banner" role="region" aria-label="Quick Status Banner">
+    <div class="container banner-content">
+      <span class="badge-pill pulse-badge">
+        <span class="pulse-dot"></span> Live Mess Status
+      </span>
+      <span id="banner-status-text" class="banner-text">Loading live meal status...</span>
+      <div class="banner-right">
+        <span id="current-date-badge" class="date-badge">📅 Loading date...</span>
+        <button id="btn-view-agent-spec" class="btn-text-subtle" title="View AI Agent System Prompt & CIE-3 Spec">
+          🤖 Agent Specs
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- ================= NAVIGATION BAR ================= -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="MessMate Home">
+        <div class="logo-icon-wrap">
+          <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+            <line x1="6" y1="1" x2="6" y2="4"></line>
+            <line x1="10" y1="1" x2="10" y2="4"></line>
+            <line x1="14" y1="1" x2="14" y2="4"></line>
